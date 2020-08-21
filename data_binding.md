@@ -1,7 +1,7 @@
 # Data Binding
 
 ## Reason:
-When using findViewById to find references to views, after every inflation, android has to traveser the view hierarchy to find it for us at runtime.
+When using findViewById to find references to views, after every inflation, android has to traverse the view hierarchy to find it for us at runtime.
 
 For large/deep-view hierarchy, this can be expensive and resource draining, slowing down the app.
 
